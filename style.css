@@ -1,6 +1,7 @@
 * {
     text-decoration: none;
     list-style: none;
+
 }
 
 :root {
@@ -26,6 +27,7 @@ body {
 .container {
     width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .logo {
