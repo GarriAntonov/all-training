@@ -1,0 +1,177 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+  --main-color: #000000;
+  --accent-color: #2196F3;
+  --text-color: #212121;
+  --text-color-two: #757575;
+  --color-white: #FFFFFF;
+  --bg-color-hero: #2F303A;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.logo {
+    color: var(--main-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--text-color);
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--accent-color); 
+}
+
+.header-mail, .header-tel {
+    color: var(--text-color-two); 
+}
+
+.header-mail:focus, .header-tel:focus, .header-mail:hover, .header-tel:hover {
+    color: var(--accent-color); 
+}
+
+.hero {
+    min-width: 1600px;
+    background: var(--bg-color-hero);
+    text-align: center;
+}   
+    
+
+.hero-title {
+    width: 696px;
+    padding: 200px 452px 30px 452px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.hero-button {
+    margin-bottom: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+    padding: 10px 32px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.advantages-pretitle {
+    visibility: hidden;
+}
+
+.advahtages-title {
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.advantages-text {
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color-two);
+}
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.team-pretitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-title {
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color-two)
+}
+
+.footer {
+    background: var(--bg-color-hero); 
+}
+
+.logo.special {
+    color: var(--color-white);
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+
+}
+
+.footer-mail, .footer-tel {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-link-color);
+}
