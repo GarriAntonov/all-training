@@ -193,9 +193,25 @@ color: var(--text-color-two);
 
 .team-list {
     display: flex;
+    justify-content: center;
+    padding-left: 0;
+    gap: 30px;
+    margin: 0;
+}
+
+.team-list li {
+background: var(--color-white);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team li {
+    text-align: center;
 }
 
 .team-pretitle {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -205,6 +221,8 @@ color: var(--text-color-two);
 }
 
 .team-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -212,6 +230,8 @@ color: var(--text-color-two);
 }
 
 .team-text {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
