@@ -11,30 +11,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">">
   </head>
-  <body class="container">
-    <header>
+  <body class="section">
+    <header class="container header">
       <a class="logo"><span class="logo-accent">Web</span>Studio</a>
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li ><a class="nav-link" href="./index.html">Студія</a></li>
           <li ><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-          <li ><a class="nav-link" href="">Контакти</a></li>
+          <li ><a class="nav-link nomargin" href="">Контакти</a></li>
         </ul>
       </nav>
+      <div class="header-contakts">
+        <a class="header-tel" href="" type="tel">+38 096 111 11 11</a>
+        <a class="header-mail" href="" type="mailto">info@devstudio.com</a>
+      </div>
+     
 
-      <a class="header-mail" href="" type="mailto">info@devstudio.com</a>
-      <a class="header-tel" href="" type="tel">+38 096 111 11 11</a>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero section">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
 
       <section class="advantages container">
         <h2 class="advantages-pretitle">advantages</h2>
-         <ul>
+         <ul class="advantages-list">
           <li>
             <h3 class="advahtages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="advantages-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -56,7 +59,7 @@
 
       <section class="activity container">
         <h2 class="activity-title">Чим ми займаємося</h2>
-        <ul>
+        <ul class="activity-list">
           <li>
             <img src="./image/classes/img-left.jpg" alt="" width="370" height="294">
           </li>
@@ -71,8 +74,8 @@
 
       <section class="team container">
         <h2 class="team-pretitle">Наша команда</h2>
-        <ul>
-          <li class="team-list">
+        <ul class="team-list">
+          <li>
             <img src="./image/team/demian.jpg" alt="" width="270" height="260">
             <h3 class="team-title">Ігор Дем'яненко</h3>
             <p class="team-text">Product Designer</p>
