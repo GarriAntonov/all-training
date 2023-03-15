@@ -288,6 +288,10 @@ border-radius: 0px 0px 4px 4px;
     border-bottom: 1px solid var(--header-border-color);
 }
 
+.container.bar {
+    padding-bottom: 50px;
+}
+
 .projekts.container {
     padding-top: 0;
 }
@@ -297,7 +301,7 @@ border-radius: 0px 0px 4px 4px;
     justify-content: center;
     gap: 8px;
     padding-left: 0;
-    margin-top: 94px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
