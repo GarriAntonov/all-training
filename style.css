@@ -13,6 +13,7 @@
   --bg-color-hero: #2F303A;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --bg-color-filter: #F5F4FA;
+  --header-border-color: #ECECEC;
 }
 
 body {
@@ -243,11 +244,24 @@ border-radius: 0px 0px 4px 4px;
     background: var(--bg-color-hero); 
 }
 
+.footer.section {
+    padding: 60px 0;
+}
+
+.footer.container {
+    padding: 0;
+}
+
 .logo.special {
     color: var(--color-white);
 }
 
+.footer-logo {
+    margin: 0 0 28px 0;
+}
+
 .footer-adress {
+    margin-bottom: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.17;
@@ -257,13 +271,35 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer-mail, .footer-tel {
+    display: block;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
 }
 
+.footer-mail {
+    margin-bottom: 12px;
+}
+
 /* страница портфолио */
+
+.header-border {
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.projekts.container {
+    padding-top: 0;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-left: 0;
+    margin-top: 94px;
+    margin-bottom: 0;
+}
 
 .filter {
     font-weight: 500;
@@ -283,5 +319,27 @@ border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: var(--color-white);
+}
+
+.projekts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 0;
+    margin: 50px auto 0;
+}
+
+.projekts-list li {
+    background: var(--color-white);
+    border: 1px solid #EEEEEE;
+}
+
+.projekts-title {
+    margin: 20px 24px 4px;
+}
+
+.projekts-text {
+    margin: 0 24px 20px;
 }
 
