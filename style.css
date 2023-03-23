@@ -90,12 +90,35 @@ nav {
     margin-left: auto;
 }
 
+.header-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
 .header-mail, .header-tel {
     color: var(--text-color-two); 
 }
 
-.header-mail {
+.header-mail::before {
+    display: inline-flex;
+    content: '';
+    width: 16px;
+    height: 12px;
+    background-image: url(./image/envelope.svg);
+    margin-right: 10px;
+}
+
+.header-tel {
     margin-left: 40px;
+}
+
+.header-tel::before {
+    display: inline-flex;
+    content: '';
+    width: 10px;
+    height: 16px;
+    background-image: url(./image/smartphone.svg);
+    margin-right: 10px;
 }
 
 .header-mail:focus, .header-tel:focus, .header-mail:hover, .header-tel:hover {
@@ -109,6 +132,7 @@ nav {
 .hero {
     background: var(--bg-color-hero);
     text-align: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./image/project/hero-image.jpg);
 }   
     
 
