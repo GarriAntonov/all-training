@@ -96,6 +96,8 @@ nav {
 }
 
 .header-mail, .header-tel {
+    display: inline-flex;
+    align-items: center;
     color: var(--text-color-two); 
 }
 
@@ -105,6 +107,7 @@ nav {
     width: 16px;
     height: 12px;
     background-image: url(./image/envelope.svg);
+    background-repeat: no-repeat;
     margin-right: 10px;
 }
 
@@ -174,6 +177,58 @@ nav {
     width: calc((100%-90px) /4);
 }
 
+.advahtages-title.antenna::before {
+    display: block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./image/team/antenna.svg);
+    background-color: var(--bg-color-filter);
+    padding: 25px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.advahtages-title.clock::before {
+    display: block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./image/team/clock.svg);
+    background-color: var(--bg-color-filter);
+    padding: 25px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.advahtages-title.diagram::before {
+    display: block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./image/team/diagram.svg);
+    background-color: var(--bg-color-filter);
+    padding: 25px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.advahtages-title.astronaut::before {
+    display: block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./image/team/astronaut.svg);
+    background-color: var(--bg-color-filter);
+    padding: 25px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
 .advahtages-title {
 margin-top: 0;
 margin-bottom: 10px;
@@ -182,6 +237,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 
 .advantages-text {
 margin: 0;
