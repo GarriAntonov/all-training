@@ -177,7 +177,7 @@ nav {
     width: calc((100%-90px) /4);
 }
 
-.advahtages-title.antenna::before {
+.advahtages-title::before {
     display: block;
     content: '';
     width: 70px;
