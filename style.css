@@ -101,27 +101,27 @@ nav {
     color: var(--text-color-two); 
 }
 
-.header-mail::before {
-    display: inline-flex;
-    content: '';
-    width: 16px;
-    height: 12px;
-    background-image: url(./image/envelope.svg);
-    background-repeat: no-repeat;
+.mail-icon {
     margin-right: 10px;
+    fill: var(--text-color-two);
 }
+
+.mail-icon:hover {
+    fill: var(--accent-color);
+}
+
 
 .header-tel {
     margin-left: 40px;
 }
 
-.header-tel::before {
-    display: inline-flex;
-    content: '';
-    width: 10px;
-    height: 16px;
-    background-image: url(./image/smartphone.svg);
+.tel-icon {
     margin-right: 10px;
+    fill: var(--text-color-two);
+}
+
+.tel-icon:hover {
+    fill: var(--accent-color);
 }
 
 .header-mail:focus, .header-tel:focus, .header-mail:hover, .header-tel:hover {
@@ -177,56 +177,28 @@ nav {
     width: calc((100%-90px) /4);
 }
 
-.advahtages-title::before {
-    display: block;
-    content: '';
-    width: 70px;
-    height: 70px;
-    background-image: url(./image/team/antenna.svg);
-    background-color: var(--bg-color-filter);
-    padding: 25px 100px;
-    background-repeat: no-repeat;
-    background-position: center;
+.antenna-icon {
+    padding: 25px 102px;
     margin-bottom: 30px;
+    background-color: var(--bg-color-filter);
 }
 
-.advahtages-title.clock::before {
-    display: block;
-    content: '';
-    width: 70px;
-    height: 70px;
-    background-image: url(./image/team/clock.svg);
-    background-color: var(--bg-color-filter);
+.clock-icon {
     padding: 25px 100px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
+    background-color: var(--bg-color-filter);
 }
 
-.advahtages-title.diagram::before {
-    display: block;
-    content: '';
-    width: 70px;
-    height: 70px;
-    background-image: url(./image/team/diagram.svg);
-    background-color: var(--bg-color-filter);
+.diagram-icon {
     padding: 25px 100px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
+    background-color: var(--bg-color-filter);
 }
 
-.advahtages-title.astronaut::before {
-    display: block;
-    content: '';
-    width: 70px;
-    height: 70px;
-    background-image: url(./image/team/astronaut.svg);
-    background-color: var(--bg-color-filter);
+.astronaut-icon {
     padding: 25px 100px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
+    background-color: var(--bg-color-filter); 
 }
 
 .advahtages-title {
@@ -326,14 +298,15 @@ border-radius: 0px 0px 4px 4px;
     justify-content: space-between;
 }
 
-.social-insta {
+.social-item {
     display: block;
     width: 44px;
     height: 44px;
-    background-image: url(./image/team/instagram.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 50%;
+}
+
+.social-insta {
+
 }
 
 .social-twit {
