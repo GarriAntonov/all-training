@@ -245,6 +245,11 @@ color: var(--text-color-two);
     text-align: center;
 }
 
+.team.container {
+    background-color: var(--bg-color-filter);
+    min-width: 1600px;
+}
+
 .team-list {
     display: flex;
     justify-content: center;
