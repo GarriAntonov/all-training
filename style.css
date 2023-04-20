@@ -14,6 +14,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --bg-color-filter: #F5F4FA;
   --header-border-color: #ECECEC;
+  --socials-icon-fill:#AFB1B8;
 }
 
 body {
@@ -298,49 +299,158 @@ border-radius: 0px 0px 4px 4px;
     justify-content: space-between;
 }
 
-.social-item {
-    display: block;
+.social-link {
+    display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link:hover {
+    background-color: var(--accent-color);
+    fill: var(--color-white);
 }
 
 .social-insta {
-
+    fill: var(--socials-icon-fill);
 }
 
-.social-twit {
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-image: url(./image/team/twitter.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+.social-insta:hover {
+    fill: var(--color-white);
+}
+
+.social-twitter {
+    fill: var(--socials-icon-fill);
+} 
+
+.social-twitter:hover {
+    fill: var(--color-white);
 }
 
 .social-face {
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-image: url(./image/team/facebook.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+    fill: var(--socials-icon-fill);
+}
+
+.social-face:hover {
+    fill: var(--color-white);
 }
 
 .social-linkedin {
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-image: url(./image/team/linkedin.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+    fill: var(--socials-icon-fill);
+}
+
+.social-linkedin:hover {
+    fill: var(--color-white);
 }
 
 .social-list.modification {
     margin: 0;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    margin: 0 0 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+}
+
+.clients-list li:hover {
+    fill: var(--accent-color);
+    border-color: #2196F3;
+}
+
+
+.clients-one {
+    padding: 23px 65px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: var(--socials-icon-fill);
+}
+
+.clients-one:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+
+
+.clients-two {
+    padding: 20px 65px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: var(--socials-icon-fill);
+}
+
+.clients-two:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+.clients-three {
+    padding: 25px 63px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: var(--socials-icon-fill);
+}
+
+.clients-three:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+.clients-four {
+    padding: 25px 43px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: var(--socials-icon-fill);
+}
+
+.clients-four:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+.clients-five {
+    padding: 23px 53px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px; 
+    fill: var(--socials-icon-fill);
+}
+
+.clients-five:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+.clients-six {
+    padding: 23px 38px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px; 
+    fill: var(--socials-icon-fill);
+    
+}
+
+.clients-six:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
 }
 
 .footer-box {
@@ -413,6 +523,8 @@ border-radius: 0px 0px 4px 4px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     margin-right: 10px;
+    width: 44px;
+    height: 44px;
 }
 
 .bg:hover {
@@ -422,6 +534,22 @@ border-radius: 0px 0px 4px 4px;
 
 .bg:last-child {
     margin-right: 0;
+}
+
+.social-insta.white {
+    fill: var(--color-white);
+}
+
+.social-twitter.white {
+    fill: var(--color-white);
+}
+
+.social-face.white {
+    fill: var(--color-white);
+}
+
+.social-linkedin.white {
+    fill: var(--color-white);
 }
 
 
