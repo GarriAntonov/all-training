@@ -15,6 +15,7 @@
   --bg-color-filter: #F5F4FA;
   --header-border-color: #ECECEC;
   --socials-icon-fill:#AFB1B8;
+  --bg-color-activity: rgba(47, 48, 58, 0.8);
 }
 
 body {
@@ -229,8 +230,28 @@ color: var(--text-color-two);
     gap: 30px;
     justify-content: center;
     padding-left: 0;
+    margin: 0; 
+}
+
+.activity-box {
+    position: relative;
+
+}
+
+.activity-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background-color:var(--bg-color-activity);
+    width: 100%;
+    padding: 27px 0;
     margin: 0;
-   
+    position: absolute;
+    bottom: 4px;
 }
 
 .activity-title {
