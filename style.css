@@ -76,10 +76,14 @@ nav {
 }
 
 .nav-link {
+    position: relative;
     color: var(--text-color);
 }
 
 .nav-link::after {
+    position: absolute;
+    bottom: -38px;
+    left: 0;
     display: inline-block;
     content: " ";
     width: 100%;
