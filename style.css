@@ -80,7 +80,7 @@ nav {
     color: var(--text-color);
 }
 
-.nav-link::after {
+.nav-link.is-active::after {
     position: absolute;
     bottom: -38px;
     left: 0;
